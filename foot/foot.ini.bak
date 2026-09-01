@@ -1,0 +1,27 @@
+[main]
+font=JetBrainsMono Nerd Font:size=8
+font-size-adjustment=1
+dpi-aware=yes
+pad=12x12
+term=xterm-256color
+
+[scrollback]
+lines=100000
+
+[cursor]
+style=beam
+blink=yes
+
+[mouse]
+hide-when-typing=yes
+
+
+[url]
+launch=xdg-open ${url}
+osc8-underline=url-mode
+
+[desktop-notifications]
+command=notify-send
+
+[bell]
+visual=yes
